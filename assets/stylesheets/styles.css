@@ -8792,26 +8792,37 @@ header .nav-two {
   border-radius: 0;
   margin-bottom: 0;
 }
-/* line 38, ../sass/styles.scss */
+@media (max-width: 360px) {
+  /* line 33, ../sass/styles.scss */
+  header .nav-two {
+    height: 53px;
+    padding: 0;
+  }
+}
+/* line 42, ../sass/styles.scss */
 header .nav-two .container .navbar-header {
   align-content: center;
 }
-/* line 40, ../sass/styles.scss */
+/* line 44, ../sass/styles.scss */
 header .nav-two .container .navbar-header .navbar-toggle {
   border-radius: 0;
-  float: none;
+  float: left;
   color: #fff;
-  font-size: 30px;
-  margin-left: 5px;
+  font-size: 24px;
+  margin-left: 7px;
+  padding-right: 6px;
+  padding-left: 6px;
+  padding-bottom: 0;
+  padding-top: 0;
 }
-/* line 46, ../sass/styles.scss */
+/* line 54, ../sass/styles.scss */
 header .nav-two .container .navbar-header .navbar-toggle:hover {
   border-color: #fff;
   border-style: solid;
   border-width: thin;
   color: #fff;
 }
-/* line 58, ../sass/styles.scss */
+/* line 66, ../sass/styles.scss */
 header .nav-two .container .collapse ul.navbar-nav li.on a {
   background-color: #2C3635;
   margin-top: 5px;
@@ -8824,11 +8835,11 @@ header .nav-two .container .collapse ul.navbar-nav li.on a {
   -moz-box-shadow: 0px 5px 0px -1px #071313;
   box-shadow: 0px 5px 0px -1px #071313;
 }
-/* line 66, ../sass/styles.scss */
+/* line 74, ../sass/styles.scss */
 header .nav-two .container .collapse ul.navbar-nav li a:link {
   color: white;
 }
-/* line 67, ../sass/styles.scss */
+/* line 75, ../sass/styles.scss */
 header .nav-two .container .collapse ul.navbar-nav li a:hover {
   background-color: #2C3635;
   margin-top: 5px;
@@ -8841,62 +8852,110 @@ header .nav-two .container .collapse ul.navbar-nav li a:hover {
   -moz-box-shadow: 0px 5px 0px -1px #071313;
   box-shadow: 0px 5px 0px -1px #071313;
 }
-/* line 81, ../sass/styles.scss */
+/* line 87, ../sass/styles.scss */
+header .carousel {
+  float: right;
+  width: 100%;
+}
+/* line 89, ../sass/styles.scss */
+header .carousel .right {
+  text-align: right;
+}
+/* line 93, ../sass/styles.scss */
+header .carousel .left {
+  text-align: left;
+}
+/* line 97, ../sass/styles.scss */
+header .carousel .carousel-control {
+  margin-top: 250px;
+  background: none;
+}
+/* line 100, ../sass/styles.scss */
+header .carousel .carousel-control .oks {
+  -webkit-box-shadow: 0px -4px 3px 2px #e77401;
+  -moz-box-shadow: 0px -4px 3px 2px #e77401;
+  box-shadow: 0px -4px 3px 2px #e77401;
+  background-color: #E77401;
+  border-radius: 3px;
+  padding-top: 0;
+  padding-right: 5px;
+  padding-left: 5px;
+  padding-bottom: 5px;
+}
+@media (max-width: 360px) and (max-width: 768px) {
+  /* line 97, ../sass/styles.scss */
+  header .carousel .carousel-control {
+    margin-top: 150px;
+  }
+}
+/* line 118, ../sass/styles.scss */
+header .carousel .carousel-inner {
+  width: 100%;
+}
+/* line 120, ../sass/styles.scss */
 header .carousel .carousel-inner .item {
   height: 536px;
   width: 100%;
   background-size: cover;
+  background-position: center;
 }
 
-/* line 91, ../sass/styles.scss */
+/* line 132, ../sass/styles.scss */
 section {
   height: 100%;
 }
-/* line 94, ../sass/styles.scss */
+/* line 133, ../sass/styles.scss */
+section .btn-location {
+  position: relative;
+  left: 50%;
+  right: 50%;
+  margin-top: -59px;
+}
+/* line 141, ../sass/styles.scss */
 section .row article {
   padding-right: 7px;
   padding-left: 7px;
 }
 @media (max-width: 360px) {
-  /* line 94, ../sass/styles.scss */
+  /* line 141, ../sass/styles.scss */
   section .row article {
     padding-right: auto;
     padding-left: auto;
     width: 98%;
   }
 }
-/* line 102, ../sass/styles.scss */
+/* line 149, ../sass/styles.scss */
 section .row article .panel-default {
   opacity: 0.8;
   -webkit-box-shadow: 0px 13px 0px -1px #b7bebe;
   -moz-box-shadow: 0px 13px 0px -1px #b7bebe;
   box-shadow: 0px 13px 0px -1px #b7bebe;
 }
-/* line 107, ../sass/styles.scss */
+/* line 154, ../sass/styles.scss */
 section .row article .panel-default:hover {
   opacity: 1;
   -webkit-box-shadow: 0px 6px 0px -1px #b7bebe;
   -moz-box-shadow: 0px 6px 0px -1px #b7bebe;
   box-shadow: 0px 6px 0px -1px #b7bebe;
 }
-/* line 113, ../sass/styles.scss */
+/* line 160, ../sass/styles.scss */
 section .row article .panel-default .panel-heading {
   height: 200px;
   background-size: cover;
   padding: 0;
 }
-/* line 120, ../sass/styles.scss */
+/* line 167, ../sass/styles.scss */
 section .row article .panel-default .panel-body p.satu {
   color: #808C8A;
   font-size: 16px;
 }
-/* line 124, ../sass/styles.scss */
+/* line 171, ../sass/styles.scss */
 section .row article .panel-default .panel-body p.dua {
   color: #808C8A;
   font-size: 19px;
   font-weight: 700;
 }
-/* line 130, ../sass/styles.scss */
+/* line 177, ../sass/styles.scss */
 section .row article .panel-default .panel-icon {
   padding-left: 16px;
   padding-top: 5px;
@@ -8911,11 +8970,20 @@ section .row article .panel-default .panel-icon {
   font-weight: 600;
   font-size: 20px;
 }
-/* line 144, ../sass/styles.scss */
+/* line 191, ../sass/styles.scss */
 section .row article .panel-default .panel-footer {
   color: #FE8103;
   font-weight: 800;
   font-size: 20px;
   background: transparent;
   border-top: none;
+}
+
+/* line 203, ../sass/styles.scss */
+footer {
+  padding: 19px;
+  margin-top: 50px;
+  height: 60px;
+  background-color: black;
+  color: white;
 }
