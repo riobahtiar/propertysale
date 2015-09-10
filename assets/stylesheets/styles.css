@@ -8769,46 +8769,46 @@ button.close {
     display: none !important;
   }
 }
-/* line 15, ../sass/styles.scss */
+/* line 17, ../sass/styles.scss */
 header {
   height: 100%;
 }
-/* line 17, ../sass/styles.scss */
+/* line 19, ../sass/styles.scss */
 header .nav-one {
   background-color: black;
   border-radius: 0;
   height: 80px;
   margin-bottom: 0;
 }
-/* line 23, ../sass/styles.scss */
+/* line 25, ../sass/styles.scss */
 header .nav-one .container .navbar-logo {
   margin-top: 10px;
   margin-bottom: auto;
   margin-left: 30px;
 }
-/* line 31, ../sass/styles.scss */
+/* line 33, ../sass/styles.scss */
 header .nav-two {
   background-color: #434446;
   border-radius: 0;
   margin-bottom: 0;
 }
-/* line 36, ../sass/styles.scss */
+/* line 38, ../sass/styles.scss */
 header .nav-two .container .navbar-header {
   align-content: center;
 }
-/* line 38, ../sass/styles.scss */
+/* line 40, ../sass/styles.scss */
 header .nav-two .container .navbar-header .navbar-toggle {
   border-radius: 0;
   float: none;
   color: #fff;
   font-size: 30px;
 }
-/* line 43, ../sass/styles.scss */
+/* line 45, ../sass/styles.scss */
 header .nav-two .container .navbar-header .navbar-toggle:hover {
   background-color: #fff;
   color: #030303;
 }
-/* line 53, ../sass/styles.scss */
+/* line 55, ../sass/styles.scss */
 header .nav-two .container .collapse ul.navbar-nav li.on a {
   background-color: #2C3635;
   margin-top: 5px;
@@ -8821,11 +8821,11 @@ header .nav-two .container .collapse ul.navbar-nav li.on a {
   -moz-box-shadow: 0px 5px 0px -1px #071313;
   box-shadow: 0px 5px 0px -1px #071313;
 }
-/* line 61, ../sass/styles.scss */
+/* line 63, ../sass/styles.scss */
 header .nav-two .container .collapse ul.navbar-nav li a:link {
   color: white;
 }
-/* line 62, ../sass/styles.scss */
+/* line 64, ../sass/styles.scss */
 header .nav-two .container .collapse ul.navbar-nav li a:hover {
   background-color: #2C3635;
   margin-top: 5px;
@@ -8838,49 +8838,62 @@ header .nav-two .container .collapse ul.navbar-nav li a:hover {
   -moz-box-shadow: 0px 5px 0px -1px #071313;
   box-shadow: 0px 5px 0px -1px #071313;
 }
-/* line 76, ../sass/styles.scss */
+/* line 78, ../sass/styles.scss */
 header .carousel .carousel-inner .item {
   height: 536px;
   width: 100%;
   background-size: cover;
 }
 
-/* line 86, ../sass/styles.scss */
+/* line 88, ../sass/styles.scss */
 section {
   height: 100%;
 }
-/* line 90, ../sass/styles.scss */
-section .row .col-md-3 .panel-default {
+/* line 91, ../sass/styles.scss */
+section .row article {
+  padding-right: 7px;
+  padding-left: 7px;
+}
+@media (max-width: 360px) {
+  /* line 91, ../sass/styles.scss */
+  section .row article {
+    padding-right: auto;
+    padding-left: auto;
+    width: 98%;
+  }
+}
+/* line 99, ../sass/styles.scss */
+section .row article .panel-default {
   opacity: 0.8;
   -webkit-box-shadow: 0px 13px 0px -1px #b7bebe;
   -moz-box-shadow: 0px 13px 0px -1px #b7bebe;
   box-shadow: 0px 13px 0px -1px #b7bebe;
 }
-/* line 95, ../sass/styles.scss */
-section .row .col-md-3 .panel-default:hover {
+/* line 104, ../sass/styles.scss */
+section .row article .panel-default:hover {
   opacity: 1;
   -webkit-box-shadow: 0px 6px 0px -1px #b7bebe;
   -moz-box-shadow: 0px 6px 0px -1px #b7bebe;
   box-shadow: 0px 6px 0px -1px #b7bebe;
 }
-/* line 101, ../sass/styles.scss */
-section .row .col-md-3 .panel-default .panel-heading {
+/* line 110, ../sass/styles.scss */
+section .row article .panel-default .panel-heading {
   height: 200px;
   background-size: cover;
 }
-/* line 107, ../sass/styles.scss */
-section .row .col-md-3 .panel-default .panel-body p.satu {
+/* line 116, ../sass/styles.scss */
+section .row article .panel-default .panel-body p.satu {
   color: #808C8A;
   font-size: 16px;
 }
-/* line 111, ../sass/styles.scss */
-section .row .col-md-3 .panel-default .panel-body p.dua {
+/* line 120, ../sass/styles.scss */
+section .row article .panel-default .panel-body p.dua {
   color: #808C8A;
   font-size: 19px;
   font-weight: 700;
 }
-/* line 117, ../sass/styles.scss */
-section .row .col-md-3 .panel-default .panel-icon {
+/* line 126, ../sass/styles.scss */
+section .row article .panel-default .panel-icon {
   padding-left: 16px;
   padding-top: 5px;
   padding-bottom: 5px;
@@ -8894,8 +8907,8 @@ section .row .col-md-3 .panel-default .panel-icon {
   font-weight: 600;
   font-size: 20px;
 }
-/* line 131, ../sass/styles.scss */
-section .row .col-md-3 .panel-default .panel-footer {
+/* line 140, ../sass/styles.scss */
+section .row article .panel-default .panel-footer {
   color: #FE8103;
   font-weight: 800;
   font-size: 20px;

@@ -9,7 +9,9 @@
 
 // My Variabel
 $nav-bg:#434446;
-
+$tablet-width: 768px;
+$desktop-width: 1024px;
+$phone-width: 360px;
 // Magic Here
 
 header{
@@ -86,7 +88,14 @@ header{
 section{
 	height:100%;
 	.row{
-		.col-md-3{
+		article{
+		@media (max-width: $phone-width) {
+    		padding-right: auto;
+    		padding-left:auto;
+    		width:98%;
+			}
+			padding-right: 7px;
+			padding-left: 7px;
 			.panel-default{
 				opacity: 0.8;
 				-webkit-box-shadow: 0px 13px 0px -1px rgba(183,190,190,1);
