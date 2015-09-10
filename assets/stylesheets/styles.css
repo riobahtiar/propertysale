@@ -8849,18 +8849,37 @@ header .carousel .carousel-inner .item {
 section {
   height: 100%;
 }
-/* line 91, ../sass/styles.scss */
+/* line 90, ../sass/styles.scss */
+section .row .col-md-3 .panel-default {
+  opacity: 0.8;
+  -webkit-box-shadow: 0px 13px 0px -1px #b7bebe;
+  -moz-box-shadow: 0px 13px 0px -1px #b7bebe;
+  box-shadow: 0px 13px 0px -1px #b7bebe;
+}
+/* line 95, ../sass/styles.scss */
+section .row .col-md-3 .panel-default:hover {
+  opacity: 1;
+  -webkit-box-shadow: 0px 6px 0px -1px #b7bebe;
+  -moz-box-shadow: 0px 6px 0px -1px #b7bebe;
+  box-shadow: 0px 6px 0px -1px #b7bebe;
+}
+/* line 101, ../sass/styles.scss */
 section .row .col-md-3 .panel-default .panel-heading {
   height: 200px;
   background-size: cover;
 }
-/* line 96, ../sass/styles.scss */
-section .row .col-md-3 .panel-default .panel-body {
-  color: #B7BEBE;
-  font-weight: 600;
-  font-size: 20px;
+/* line 107, ../sass/styles.scss */
+section .row .col-md-3 .panel-default .panel-body p.satu {
+  color: #808C8A;
+  font-size: 16px;
 }
-/* line 102, ../sass/styles.scss */
+/* line 111, ../sass/styles.scss */
+section .row .col-md-3 .panel-default .panel-body p.dua {
+  color: #808C8A;
+  font-size: 19px;
+  font-weight: 700;
+}
+/* line 117, ../sass/styles.scss */
 section .row .col-md-3 .panel-default .panel-icon {
   padding-left: 16px;
   padding-top: 5px;
@@ -8875,10 +8894,10 @@ section .row .col-md-3 .panel-default .panel-icon {
   font-weight: 600;
   font-size: 20px;
 }
-/* line 116, ../sass/styles.scss */
+/* line 131, ../sass/styles.scss */
 section .row .col-md-3 .panel-default .panel-footer {
-  color: #B7BEBE;
-  font-weight: 600;
+  color: #FE8103;
+  font-weight: 800;
   font-size: 20px;
   background: transparent;
   border-top: none;
