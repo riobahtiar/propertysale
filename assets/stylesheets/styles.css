@@ -8804,3 +8804,33 @@ button.close {
   background-color: #fff;
   color: #030303;
 }
+/* line 51, ../sass/styles.scss */
+.nav-two .container .collapse ul.navbar-nav li.on a {
+  background-color: #2C3635;
+  margin-top: 5px;
+  padding-top: 10px;
+  padding-right: 15px;
+  padding-left: 15px;
+  padding-bottom: 8px;
+  border-radius: 4px;
+  -webkit-box-shadow: 0px 5px 0px -1px #071313;
+  -moz-box-shadow: 0px 5px 0px -1px #071313;
+  box-shadow: 0px 5px 0px -1px #071313;
+}
+/* line 59, ../sass/styles.scss */
+.nav-two .container .collapse ul.navbar-nav li a:link {
+  color: white;
+}
+/* line 60, ../sass/styles.scss */
+.nav-two .container .collapse ul.navbar-nav li a:hover {
+  background-color: #2C3635;
+  margin-top: 5px;
+  padding-top: 10px;
+  padding-right: 15px;
+  padding-left: 15px;
+  padding-bottom: 8px;
+  border-radius: 4px;
+  -webkit-box-shadow: 0px 5px 0px -1px #071313;
+  -moz-box-shadow: 0px 5px 0px -1px #071313;
+  box-shadow: 0px 5px 0px -1px #071313;
+}

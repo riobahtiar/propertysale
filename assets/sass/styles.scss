@@ -45,7 +45,27 @@ $nav-bg:#434446;
 		}
 	}
 	.collapse{
-		
+		ul.navbar-nav{
+			li{
+				&.on{
+					a{
+					background-color: #2C3635; margin-top: 5px; padding-top:10px; padding-right: 15px;padding-left: 15px; padding-bottom: 8px; border-radius:4px;
+						-webkit-box-shadow: 0px 5px 0px -1px rgba(7,19,19,1);
+						-moz-box-shadow: 0px 5px 0px -1px rgba(7,19,19,1);
+						box-shadow: 0px 5px 0px -1px rgba(7,19,19,1);
+						}
+				}
+				a{
+					&:link{color:white;}
+					&:hover{background-color: #2C3635; margin-top: 5px; padding-top:10px; padding-right: 15px;padding-left: 15px; padding-bottom: 8px; border-radius:4px;
+						-webkit-box-shadow: 0px 5px 0px -1px rgba(7,19,19,1);
+						-moz-box-shadow: 0px 5px 0px -1px rgba(7,19,19,1);
+						box-shadow: 0px 5px 0px -1px rgba(7,19,19,1);
+					 }
+				}
+			}
+		}
+
 	}
 }
 }
