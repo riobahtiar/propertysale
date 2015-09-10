@@ -8849,3 +8849,37 @@ header .carousel .carousel-inner .item {
 section {
   height: 100%;
 }
+/* line 91, ../sass/styles.scss */
+section .row .col-md-3 .panel-default .panel-heading {
+  height: 200px;
+  background-size: cover;
+}
+/* line 96, ../sass/styles.scss */
+section .row .col-md-3 .panel-default .panel-body {
+  color: #B7BEBE;
+  font-weight: 600;
+  font-size: 20px;
+}
+/* line 102, ../sass/styles.scss */
+section .row .col-md-3 .panel-default .panel-icon {
+  padding-left: 16px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  border-top-color: #E1E1E1;
+  border-top-width: thin;
+  border-top-style: solid;
+  border-bottom-color: #E1E1E1;
+  border-bottom-width: thin;
+  border-bottom-style: solid;
+  color: #B7BEBE;
+  font-weight: 600;
+  font-size: 20px;
+}
+/* line 116, ../sass/styles.scss */
+section .row .col-md-3 .panel-default .panel-footer {
+  color: #B7BEBE;
+  font-weight: 600;
+  font-size: 20px;
+  background: transparent;
+  border-top: none;
+}
