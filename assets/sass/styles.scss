@@ -42,9 +42,12 @@ header{
 			float:none;
 			color:#fff;
 			font-size: 30px;
+			margin-left: 5px;
 			&:hover{
-				background-color: #fff;
-				color:#030303;
+				border-color: #fff;
+				border-style: solid;
+				border-width: thin;
+				color:#fff;
 			}
 		}
 	}
@@ -110,6 +113,7 @@ section{
 				.panel-heading{
 					height:200px;
 					background-size: cover;
+					padding: 0;
 
 				}
 				.panel-body{					

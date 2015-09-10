@@ -8802,13 +8802,16 @@ header .nav-two .container .navbar-header .navbar-toggle {
   float: none;
   color: #fff;
   font-size: 30px;
+  margin-left: 5px;
 }
-/* line 45, ../sass/styles.scss */
+/* line 46, ../sass/styles.scss */
 header .nav-two .container .navbar-header .navbar-toggle:hover {
-  background-color: #fff;
-  color: #030303;
+  border-color: #fff;
+  border-style: solid;
+  border-width: thin;
+  color: #fff;
 }
-/* line 55, ../sass/styles.scss */
+/* line 58, ../sass/styles.scss */
 header .nav-two .container .collapse ul.navbar-nav li.on a {
   background-color: #2C3635;
   margin-top: 5px;
@@ -8821,11 +8824,11 @@ header .nav-two .container .collapse ul.navbar-nav li.on a {
   -moz-box-shadow: 0px 5px 0px -1px #071313;
   box-shadow: 0px 5px 0px -1px #071313;
 }
-/* line 63, ../sass/styles.scss */
+/* line 66, ../sass/styles.scss */
 header .nav-two .container .collapse ul.navbar-nav li a:link {
   color: white;
 }
-/* line 64, ../sass/styles.scss */
+/* line 67, ../sass/styles.scss */
 header .nav-two .container .collapse ul.navbar-nav li a:hover {
   background-color: #2C3635;
   margin-top: 5px;
@@ -8838,61 +8841,62 @@ header .nav-two .container .collapse ul.navbar-nav li a:hover {
   -moz-box-shadow: 0px 5px 0px -1px #071313;
   box-shadow: 0px 5px 0px -1px #071313;
 }
-/* line 78, ../sass/styles.scss */
+/* line 81, ../sass/styles.scss */
 header .carousel .carousel-inner .item {
   height: 536px;
   width: 100%;
   background-size: cover;
 }
 
-/* line 88, ../sass/styles.scss */
+/* line 91, ../sass/styles.scss */
 section {
   height: 100%;
 }
-/* line 91, ../sass/styles.scss */
+/* line 94, ../sass/styles.scss */
 section .row article {
   padding-right: 7px;
   padding-left: 7px;
 }
 @media (max-width: 360px) {
-  /* line 91, ../sass/styles.scss */
+  /* line 94, ../sass/styles.scss */
   section .row article {
     padding-right: auto;
     padding-left: auto;
     width: 98%;
   }
 }
-/* line 99, ../sass/styles.scss */
+/* line 102, ../sass/styles.scss */
 section .row article .panel-default {
   opacity: 0.8;
   -webkit-box-shadow: 0px 13px 0px -1px #b7bebe;
   -moz-box-shadow: 0px 13px 0px -1px #b7bebe;
   box-shadow: 0px 13px 0px -1px #b7bebe;
 }
-/* line 104, ../sass/styles.scss */
+/* line 107, ../sass/styles.scss */
 section .row article .panel-default:hover {
   opacity: 1;
   -webkit-box-shadow: 0px 6px 0px -1px #b7bebe;
   -moz-box-shadow: 0px 6px 0px -1px #b7bebe;
   box-shadow: 0px 6px 0px -1px #b7bebe;
 }
-/* line 110, ../sass/styles.scss */
+/* line 113, ../sass/styles.scss */
 section .row article .panel-default .panel-heading {
   height: 200px;
   background-size: cover;
+  padding: 0;
 }
-/* line 116, ../sass/styles.scss */
+/* line 120, ../sass/styles.scss */
 section .row article .panel-default .panel-body p.satu {
   color: #808C8A;
   font-size: 16px;
 }
-/* line 120, ../sass/styles.scss */
+/* line 124, ../sass/styles.scss */
 section .row article .panel-default .panel-body p.dua {
   color: #808C8A;
   font-size: 19px;
   font-weight: 700;
 }
-/* line 126, ../sass/styles.scss */
+/* line 130, ../sass/styles.scss */
 section .row article .panel-default .panel-icon {
   padding-left: 16px;
   padding-top: 5px;
@@ -8907,7 +8911,7 @@ section .row article .panel-default .panel-icon {
   font-weight: 600;
   font-size: 20px;
 }
-/* line 140, ../sass/styles.scss */
+/* line 144, ../sass/styles.scss */
 section .row article .panel-default .panel-footer {
   color: #FE8103;
   font-weight: 800;
