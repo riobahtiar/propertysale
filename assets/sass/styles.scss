@@ -6,3 +6,45 @@
 
 // Import Bootstrap for Sass
 @import "bootstrap";
+
+// My Variabel
+$nav-bg:#434446;
+
+// Magic Here
+
+
+.nav-one{
+	background-color: black;
+	.navbar-header{
+		.navbar-toggle{
+			float:none;
+			background-color: transparent;
+			color:#fff;
+			border-color: #fff;
+			border-width: medium;
+			font-weight: bold;
+			&:hover{
+				background-color: #fff;
+				color:#030303;
+			}
+		}
+	}
+}
+
+.nav-two{
+	background-color: $nav-bg;
+	.navbar-header{
+		.navbar-toggle{
+			float:none;
+			background-color: transparent;
+			color:#fff;
+			border-color: #fff;
+			border-width: medium;
+			font-weight: bold;
+			&:hover{
+				background-color: #fff;
+				color:#030303;
+			}
+		}
+	}
+}
