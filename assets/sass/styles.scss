@@ -13,6 +13,7 @@ $nav-bg:#434446;
 // Magic Here
 
 header{
+	height:100%;
 .nav-one{
 	background-color: black;
 	border-radius: 0;
@@ -30,6 +31,7 @@ header{
 .nav-two{
 	background-color: $nav-bg;
 	border-radius: 0;
+	margin-bottom: 0;
 	.container{
 	.navbar-header{
 		align-content:center;
@@ -70,6 +72,17 @@ header{
 }
 }
 .carousel{
+	.carousel-inner{
+		.item{
+			height:536px;
+			width:100%;
+			background-size: cover;
+		}
 
+	}
 }
 } // end of home
+
+section{
+	height:100%;
+}
