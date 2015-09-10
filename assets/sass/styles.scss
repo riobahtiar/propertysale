@@ -15,34 +15,37 @@ $nav-bg:#434446;
 
 .nav-one{
 	background-color: black;
-	.navbar-header{
-		.navbar-toggle{
-			float:none;
-			color:#fff;
-			border-color: #fff;
-			border-width: medium;
-			font-weight: bold;
-			&:hover{
-				background-color: #fff;
-				color:#030303;
-			}
+	border-radius: 0;
+	height: 80px;
+	margin-bottom: 0;
+	.container{
+		.navbar-logo{
+		margin-top: 10px;
+		margin-bottom: auto;
+		margin-left: 30px;
 		}
 	}
 }
 
 .nav-two{
 	background-color: $nav-bg;
+	border-radius: 0;
+	.container{
 	.navbar-header{
+		align-content:center;
 		.navbar-toggle{
+			border-radius: 0;
 			float:none;
 			color:#fff;
-			border-color: #fff;
-			border-width: medium;
-			font-weight: bold;
+			font-size: 30px;
 			&:hover{
 				background-color: #fff;
 				color:#030303;
 			}
 		}
 	}
+	.collapse{
+		
+	}
+}
 }

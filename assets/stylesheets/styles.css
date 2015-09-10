@@ -8772,35 +8772,35 @@ button.close {
 /* line 16, ../sass/styles.scss */
 .nav-one {
   background-color: black;
+  border-radius: 0;
+  height: 80px;
+  margin-bottom: 0;
 }
-/* line 19, ../sass/styles.scss */
-.nav-one .navbar-header .navbar-toggle {
-  float: none;
-  color: #fff;
-  border-color: #fff;
-  border-width: medium;
-  font-weight: bold;
-}
-/* line 25, ../sass/styles.scss */
-.nav-one .navbar-header .navbar-toggle:hover {
-  background-color: #fff;
-  color: #030303;
+/* line 22, ../sass/styles.scss */
+.nav-one .container .navbar-logo {
+  margin-top: 10px;
+  margin-bottom: auto;
+  margin-left: 30px;
 }
 
-/* line 33, ../sass/styles.scss */
+/* line 30, ../sass/styles.scss */
 .nav-two {
   background-color: #434446;
+  border-radius: 0;
+}
+/* line 34, ../sass/styles.scss */
+.nav-two .container .navbar-header {
+  align-content: center;
 }
 /* line 36, ../sass/styles.scss */
-.nav-two .navbar-header .navbar-toggle {
+.nav-two .container .navbar-header .navbar-toggle {
+  border-radius: 0;
   float: none;
   color: #fff;
-  border-color: #fff;
-  border-width: medium;
-  font-weight: bold;
+  font-size: 30px;
 }
-/* line 42, ../sass/styles.scss */
-.nav-two .navbar-header .navbar-toggle:hover {
+/* line 41, ../sass/styles.scss */
+.nav-two .container .navbar-header .navbar-toggle:hover {
   background-color: #fff;
   color: #030303;
 }
