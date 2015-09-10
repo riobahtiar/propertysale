@@ -8770,42 +8770,41 @@ button.close {
   }
 }
 /* line 16, ../sass/styles.scss */
-.nav-one {
+header .nav-one {
   background-color: black;
   border-radius: 0;
   height: 80px;
   margin-bottom: 0;
 }
 /* line 22, ../sass/styles.scss */
-.nav-one .container .navbar-logo {
+header .nav-one .container .navbar-logo {
   margin-top: 10px;
   margin-bottom: auto;
   margin-left: 30px;
 }
-
 /* line 30, ../sass/styles.scss */
-.nav-two {
+header .nav-two {
   background-color: #434446;
   border-radius: 0;
 }
 /* line 34, ../sass/styles.scss */
-.nav-two .container .navbar-header {
+header .nav-two .container .navbar-header {
   align-content: center;
 }
 /* line 36, ../sass/styles.scss */
-.nav-two .container .navbar-header .navbar-toggle {
+header .nav-two .container .navbar-header .navbar-toggle {
   border-radius: 0;
   float: none;
   color: #fff;
   font-size: 30px;
 }
 /* line 41, ../sass/styles.scss */
-.nav-two .container .navbar-header .navbar-toggle:hover {
+header .nav-two .container .navbar-header .navbar-toggle:hover {
   background-color: #fff;
   color: #030303;
 }
 /* line 51, ../sass/styles.scss */
-.nav-two .container .collapse ul.navbar-nav li.on a {
+header .nav-two .container .collapse ul.navbar-nav li.on a {
   background-color: #2C3635;
   margin-top: 5px;
   padding-top: 10px;
@@ -8818,11 +8817,11 @@ button.close {
   box-shadow: 0px 5px 0px -1px #071313;
 }
 /* line 59, ../sass/styles.scss */
-.nav-two .container .collapse ul.navbar-nav li a:link {
+header .nav-two .container .collapse ul.navbar-nav li a:link {
   color: white;
 }
 /* line 60, ../sass/styles.scss */
-.nav-two .container .collapse ul.navbar-nav li a:hover {
+header .nav-two .container .collapse ul.navbar-nav li a:hover {
   background-color: #2C3635;
   margin-top: 5px;
   padding-top: 10px;
